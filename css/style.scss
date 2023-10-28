@@ -52,19 +52,13 @@ $m: "(min-width: 768px)";
 .checkbox{
     opacity: 0;
 }
-.fa-x{
-    display: none;
-    color: white;
-}
 .fa-bars{
     color: white;
 }
 .checkbox:checked ~.fa-bars{
-    display: none;
-}
-.checkbox:checked ~ .fa-x{
     display: block;
 }
+
 .checkbox:checked ~ .list{
     display: block;
 }
@@ -150,12 +144,12 @@ footer{
         }
     .checkbox{
         display: none;
+        color:$color-4;
     }
     .fa-bars{
         display: none;
+        color:$color-4;
     }
-    .fa-x{
-        display: none;
     }
     .nav1{
         display: flex;
@@ -234,13 +228,13 @@ footer{
     }
     .checkbox{
         display: none;
+        color:$color-4;
     }
     .fa-bars{
         display: none;
+        color:$color-4;
     }
-    .fa-x{
-        display: none;
-    }
+
     header{
         padding: $padding;
         grid-area: nav;
