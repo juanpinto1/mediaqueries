@@ -59,7 +59,7 @@ $m: "(min-width: 768px)";
 .fa-bars{
     color: white;
 }
-.checkbox:checked ~ .fa-bars{
+.checkbox:checked ~.fa-bars{
     display: none;
 }
 .checkbox:checked ~ .fa-x{
