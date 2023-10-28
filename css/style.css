@@ -43,17 +43,10 @@
   .checkbox {
     opacity: 0;
   }
-  .fa-x {
-    display: none;
-    color: white;
-  }
   .fa-bars {
     color: white;
   }
   .checkbox:checked ~ .fa-bars {
-    display: none;
-  }
-  .checkbox:checked ~ .fa-x {
     display: block;
   }
   .checkbox:checked ~ .list {
@@ -144,10 +137,6 @@
     display: none;
     color: rgb(24, 98, 182);
   }
-  .fa-x {
-    display: none;
-    color: rgb(24, 98, 182);
-  }
   .nav1 {
     display: flex;
     padding: 15px;
@@ -226,10 +215,6 @@
     color: rgb(24, 98, 182);
   }
   .fa-bars {
-    display: none;
-    color: rgb(24, 98, 182);
-  }
-  .fa-x {
     display: none;
     color: rgb(24, 98, 182);
   }
